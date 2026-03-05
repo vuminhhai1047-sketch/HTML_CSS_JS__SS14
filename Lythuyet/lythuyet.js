@@ -9,7 +9,7 @@
 // Cách lấy các cái thẻ trong js
 
 // getElementById
-// 
+
 
 
 
@@ -40,6 +40,7 @@ let listDivElement = document.getElementsByTagName("ul"); // chỉ nhận thẻ
 console.log(listDivElement);
 
 let firstElement = document.querySelector("#item_01");
+console.log(firstElement);
 
 
 
@@ -50,7 +51,8 @@ console.log(listElement.innerHTML);
 console.log(listElement.textContent);  // không bị ảnh hưởng css
 
 let itemChangeElement = document.getElementById("item_01");
-itemChangeItem.innerText = "Xem phim";
+console.log(itemChangeElement);
+itemChangeElement.innerText = "Xem phim";
 
 itemChangeElement.classList.add("delete");
 itemChangeElement.classList.remove("item_v1");
@@ -64,4 +66,6 @@ itemChangeElement.style.color = "blue";
  // setAttribute là gán lại giá trị cho đường link 
  // style như css mà làm được 1 cái
  // classList 
+
+
 
